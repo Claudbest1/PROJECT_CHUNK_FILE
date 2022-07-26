@@ -5,7 +5,7 @@ main {
 
 /*---- Hero ----*/
 
-.privacy {
+.tnc {
   padding: 42px 100px;
   color: black;
 }
@@ -24,7 +24,7 @@ main {
   max-width: 735px;
   color: var(--bg-color);
 }
-.hero--info--policy > h3 {
+/* .hero--info--policy > h3 {
   font-weight: var(--fw-small);
   font-size: var(--fs-small);
 }
@@ -36,7 +36,7 @@ main {
 }
 .hero--info--policy--date {
   color: var(--bg-color);
-}
+} */
 
 /*----Contents----*/
 .content--container {
@@ -54,7 +54,7 @@ main {
   line-height: 36px;
   margin-top: 33px;
 }
-.content--text--list {
+/* .content--text--list {
   padding: 0 40px;
 }
 .content--text--list > li {
@@ -62,7 +62,7 @@ main {
   font-weight: var(--fw-small);
   margin-bottom: 16px;
   line-height: 36px;
-}
+} */
 .content--subheader {
   font-size: larger;
   font-weight: var(--fw-big);
