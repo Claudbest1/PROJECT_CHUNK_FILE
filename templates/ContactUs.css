@@ -1,0 +1,77 @@
+main {
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+/*---- Hero ----*/
+
+.contact {
+  padding: 42px 100px;
+  color: black;
+}
+.hero--info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 44px;
+}
+.hero--info--title {
+  font-size: var(--fs-large);
+}
+.contact--hero--description {
+  font-size: var(--fs-small);
+  max-width: 578px;
+  color: var(--bg-color);
+}
+
+/* ------Form--------- */
+.form--title > h3 {
+  font-weight: var(--fw-big);
+  font-size: var(--fs-small);
+  margin: 42px 0 10px;
+}
+
+.form--title > input {
+  width: 1232px;
+  height: 64px;
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+  padding: 0 25px;
+}
+
+.form--title > input::placeholder {
+  color: #bcbcbc;
+}
+
+.form--title > textarea {
+  width: 1232px;
+  height: 377px;
+  border: 1px solid #bcbcbc;
+
+  border-radius: 8px;
+  padding: 0 25px;
+}
+
+.form--title > textarea {
+  font-family: var(--ff);
+  padding-top: 20px;
+  color: #bcbcbc;
+}
+
+.form--title > textarea::after {
+  color: #0b0b0b;
+}
+
+/* -----Contact Form Button----- */
+.contact--form--btn {
+  width: 268px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  background: #ffc056;
+  box-shadow: 5px 10px 20px rgba(255, 192, 86, 0.2);
+  font-weight: var(--fw-big);
+  margin: 42px 0;
+}
