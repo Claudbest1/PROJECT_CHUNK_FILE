@@ -1,0 +1,39 @@
+.dashboard--container {
+}
+.dashboard--nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    padding: 19px 104px 19px 113px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.dashboard--sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    /* margin-top: 8px; */
+    border-top-right-radius: 24px;
+    position: fixed;
+    width: fit-content;
+    height: 100%;
+    top: 106px;
+}
+.dashboard--sidebar--underline {
+    height: 2px;
+    background-color: #FFC056;
+    margin-top: 97px;
+}
+.dashboard--sidebar--links {
+    margin: 32px 32px 32px 96px;
+}
+.dashboard--main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.dashboard--main--function {
+    /* Set width according to containing contents */
+}
