@@ -114,7 +114,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 0 60px 0 360px;
+  padding: 0 60px 0 350px;
 }
 .dashboard--main--function {
   width: 100%;
@@ -128,13 +128,13 @@
   font-size: var(--fs-small);
 }
 .dashboard--splitted--files--info--left > p:nth-child(1) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .dashboard--splitted--files--notice {
-    margin-bottom: 40px;
-    font-size: var(--fs-small);
-    color: var(--bg-color);
-    font-weight: var(--fw-large);
+  margin-bottom: 40px;
+  font-size: var(--fs-small);
+  color: var(--bg-color);
+  font-weight: var(--fw-large);
 }
 .dashboard--splitted--files--view {
   overflow-y: scroll;
@@ -164,17 +164,15 @@
   width: fit-content;
 }
 .dashboard--splitted--files--download > button {
-    border: none;
-    background-color: transparent;
-    color: var(--bg-color);
-    font-family: var(--ff);
-    font-size: var(--fs-small);
+  border: none;
+  background-color: transparent;
+  color: var(--bg-color);
+  font-family: var(--ff);
+  font-size: var(--fs-small);
 }
 .dashboard--splitted--files--download > button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
-
 
 /* Scrollbar Styling */
 .dashboard--splitted--files--view::-webkit-scrollbar {
@@ -183,11 +181,8 @@
 
 /* .dashboard--splitted--files--view::-webkit-scrollbar-track {
   /* color of the tracking area */
-  /* background: var(--home-hero-2-color);  */
- */
-
-
-.dashboard--splitted--files--view::-webkit-scrollbar-thumb {
+/* background: var(--home-hero-2-color);  */
+*/ .dashboard--splitted--files--view::-webkit-scrollbar-thumb {
   background-color: blue; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid orange; /* creates padding around scroll thumb */
