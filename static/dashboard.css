@@ -181,10 +181,11 @@
   width: 15px; /* width of the entire scrollbar */
 }
 
-.dashboard--splitted--files--view::-webkit-scrollbar-track {
+/* .dashboard--splitted--files--view::-webkit-scrollbar-track {
   /* color of the tracking area */
   /* background: var(--home-hero-2-color);  */
-}
+ */
+
 
 .dashboard--splitted--files--view::-webkit-scrollbar-thumb {
   background-color: blue; /* color of the scroll thumb */
