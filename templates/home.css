@@ -236,7 +236,7 @@
 /* Testimonials */
 .testimonials {
   padding: 72px 224px 115px 224px;
-  background-color: #ffeac7;
+  background-color: var(--bg-color);
   display: grid;
   place-items: center;
 
@@ -247,10 +247,12 @@
 .testimonials--title {
   font-size: var(--fs-large);
   font-weight: var(--fw-large);
+  color: var(--title-color);
   margin-bottom: 22px;
 }
 .testimonials--introduction {
-  font-size: var(--fs-big);
+  font-size: var(--fs-medium);
+  color: var(--title-color);
   margin-bottom: 52px;
 }
 .testimonials__flex {
@@ -260,26 +262,28 @@
   background-color: red;
   width: 993px;
   padding: 58px 64px 69px 56px;
-  background-color: var(--bg-color);
+  background-color: #ffff;
   border-radius: 60px 60px 0px 60px;
 }
 .testifier--img {
   width: 140px;
   border-radius: 50%;
-  border: 12px solid #b9c6f0;
+  border: 12px solid #fed576;
 }
 .testimonials__flex article {
   width: 708px;
-  color: var(--title-color);
+  font-size: var(--fw-small);
+  color: var(--body--text-color);
   position: relative;
   bottom: -23px;
 }
 .testimonials--name,
 .testimonials--role {
   text-align: right;
+  font-size: var(--fs-small);
 }
 .testimonials--text {
-  font-size: var(--fs-medium);
+  font-size: var(--fs-small);
   font-weight: var(--fw-small);
   line-height: 32px;
 }
