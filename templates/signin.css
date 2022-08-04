@@ -92,7 +92,7 @@ body {
 }
 
 .singin--form--input:focus {
-  border: 2px solid #2e53d2;
+  outline: 1px solid #2e53d2;
 }
 
 /* ----Rememeber me section----- */

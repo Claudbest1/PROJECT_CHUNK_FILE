@@ -75,6 +75,10 @@ body {
   margin-bottom: 15px;
 }
 
+.signup--form input:focus {
+  outline: 1px solid #2e53d2;
+}
+
 .signup--form input::placeholder {
   color: var(--placeholder-color);
 }

@@ -10,16 +10,9 @@
   display: none;
 }
 
-<<<<<<< HEAD
 /* .dashboard--container  */
 /* To be coded */
 /* overflow: hidden; */
-=======
-.dashboard--container {
-  /* To be coded */
-  /* overflow: hidden; */
-}
->>>>>>> 76edfd4926016709b049237099c4f97e160c0412
 
 .dashboard--nav {
   display: flex;
@@ -182,15 +175,6 @@
 
 /* Scrollbar Styling */
 .dashboard--splitted--files--view::-webkit-scrollbar {
-<<<<<<< HEAD
-  width: 15px; 
-}
-
-.dashboard--splitted--files--view::-webkit-scrollbar-thumb {
-  background-color: blue; 
-  border-radius: 20px; 
-  border: 3px solid orange; 
-=======
   width: 15px; /* width of the entire scrollbar */
 }
 
@@ -201,5 +185,4 @@
   background-color: blue; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid orange; /* creates padding around scroll thumb */
->>>>>>> origin/dev
 }

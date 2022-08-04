@@ -21,7 +21,7 @@
 }
 .privacy--hero--description {
   max-width: 735px;
-  color: var(--bg-color);
+  color: var(--body--text-color);
   margin-bottom: 50px;
 }
 .privacy--hero--info--policy > h3 {
