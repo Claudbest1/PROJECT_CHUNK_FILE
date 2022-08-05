@@ -67,9 +67,9 @@
   font-size: var(--fs-large);
   line-height: 65px;
 }
-.home--chunk--steps {
-  /* No Styling */
-}
+/* .home--chunk--steps {
+  No Styling
+} */
 .home--chunk--steps > img {
   width: 75px;
   margin-bottom: 67.5px;
@@ -91,18 +91,6 @@
   /* max-width: 1440px;
   margin: 0 auto; */
 }
-
-.home---about--description--intro {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 200px;
-  
-}
-.home---about--description--intro > h2 {
-  color: var(--bg-color);
-  /* margin-bottom: 40px; */
-}
 .home--about--title {
   font-size: var(--fs-large);
   text-align: center;
@@ -110,31 +98,21 @@
 .home--about--title > span {
   color: var(--bg-color);
 }
-.home--about--description--flex {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: auto auto;
-  grid-gap: 144px;
-  margin-top: 88px;
-}
 .home--about--description {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
   align-items: center;
-  border: none;
-  padding: 83px;
-  width: 600px;
-  box-shadow: 0px 0px 64px 32px rgba(0, 0, 0, 0.04);
-  border-radius: 20px;
+  margin-top: 88px;
 }
 .home--about--icon {
   width: 90px;
   height: 116px;
   margin-right: 36px;
 }
-.home--about--text {
+/* .home--about--text {
   /* No styling */
-  margin-top: 64px;
-}
-.home--about--text > h2 {
+*/ .home--about--text > h2 {
   margin-bottom: 12px;
   color: var(--bg-color);
   font-size: var(--fs-big);
@@ -143,7 +121,7 @@
 .home--about--text > p {
   color: var(--grey-color);
   font-weight: var(--fw-small);
-  font-size: var(--fs-small);
+  font-size: var(--fs-medium);
   margin-bottom: 32px;
   line-height: 36px;
 }
@@ -151,8 +129,6 @@
 /* Split Section */
 .split {
   padding: 100px 125px 66px 100px;
-  display: grid;
-  place-items: center;
 
   /* 1440px Screen Size */
   /* max-width: 1440px;
@@ -163,7 +139,6 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
-  width: fit-content;
 }
 .split__flex > article {
   width: 630px;
@@ -192,12 +167,6 @@
 .split__flex:nth-child(2) > img {
   width: 540px;
   height: 430px;
-  margin-left: 0;
-  padding: 0;
-}
-.split__flex:nth-child(2) > article {
-  padding-left: 180px;
-  width: 810px;
 }
 
 /* Instructions */
@@ -289,7 +258,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: red; */
+  background-color: red;
   width: 993px;
   padding: 58px 64px 69px 56px;
   background-color: #ffff;

@@ -3,18 +3,11 @@ a {
 }
 
 /* Local Styling */
-.footer--container {
-<<<<<<< HEAD
-  /* 1440px Screen Size */
-  /* margin: auto;  */
-  /* max-width: var(--width); */
-=======
-
-    /* 1440px Screen Size */
-    /* margin: auto; 
-    max-width: var(--width); */
->>>>>>> 76edfd4926016709b049237099c4f97e160c0412
-}
+/* .footer--container { */
+/* 1440px Screen Size */
+/* margin: auto;  */
+/* max-width: var(--width); */
+/* } */
 
 /* ---- Top of Footer ---- */
 .footer--top {
