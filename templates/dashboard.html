@@ -9,7 +9,7 @@
     <!-- Global Stylesheets -->
     <link rel="stylesheet" href="../static/globalstyle.css" />
     <link rel="stylesheet" href="../static/dashboard.css" />
-    <link rel="stylesheet" href="../static/dashboard-splitted.css" />
+    <link rel="stylesheet" href="../templates/dashboard-split.css" />
   </head>
 
   <body>
@@ -98,146 +98,24 @@
                 <p>Date of Split <span>Time of Split</span></p>
               </div>
             </div>
-            <p class="dashboard--splitted--files--notice">
-              Your uploaded file has been splitted into {number of files}
-              separate files
-            </p>
-            <section class="dashboard--splitted--files--view">
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-              <!-- Beginning of a splitted file -->
-              <div class="dashboard--splitted--files--box">
-                <div class="dashboard--splitted--files--name">
-                  <img src="../images/folder.png" alt="folder icon">
-                  <p>File Name</p>
-                </div>
-                <p class="splitted--file--size">{File Size}MB</p>
-                <div class="dashboard--splitted--files--download">
-                  <img src="../images/arrow-down.png" alt="download icon">
-                  <button type="submit">Download</button>
-                </div>
-              </div>
-              <!-- End of a splitted file -->
-
-            </section>
-          </section>
-          <!--End of Saved Files Section -->
+            <!-- <div class="dashboard--upload-options">
+              <img src="../images/folder.png" alt="folder"
+                class="dashboard--upload-options-icons"><label
+                class="dashboard--upload-options-text">My Device</label><img
+                src="../images/logos_google-drive.png" alt="Google Drive"
+                class="dashboard--upload-options-icons"><label
+                class="dashboard--upload-options-text">Google
+                Drive
+              </label><img
+                src="../images/logos_dropbox.png" alt=""
+                class="dashboard--upload-options-icons"><label
+                class="dashboard--upload-options-text">Drop Box</label><img
+                src="../images/logos_microsoft-onedrive.png"
+                alt="" class="dashboard--upload-options-icons"><label
+                class="dashboard--upload-options-text">One
+                Drive</label>
+            </div> -->
+          </div>
 
         </div>
       </div>
