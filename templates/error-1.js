@@ -1,8 +1,7 @@
-errorMessage1=document.getElementById('error-1-message');
-returnKey=document.querySelector('#return-key');
+errorMessage2=document.querySelector('.error-2-content');
+errorKey2=document.querySelector('.error-2-key');
+console.log(errorKey2)
 
-
-returnKey.addEventListener('click',()=>{
-    errorMessage1.style.display='none'
+errorKey2.addEventListener('click',()=>{
+    errorMessage2.style.display='none'
 })
-
